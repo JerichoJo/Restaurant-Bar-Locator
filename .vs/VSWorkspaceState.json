@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.expo-shared",
+    "\\assets",
+    "\\assets\\src",
+    "\\assets\\src\\api",
+    "\\assets\\src\\components",
+    "\\assets\\src\\hooks",
+    "\\assets\\src\\screens"
+  ],
+  "SelectedNode": "\\assets\\src\\components\\ResultsList.js",
+  "PreviewInSolutionExplorer": false
+}
