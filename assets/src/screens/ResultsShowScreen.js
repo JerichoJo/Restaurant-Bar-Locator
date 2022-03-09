@@ -36,7 +36,7 @@ const ResultsShowScreen = ({ navigation }) => {
                 disabled={false}
                 rating={result.rating}
                 maxStars={5}
-                starSize={20}
+                starSize={16}
                 fullStarColor={'gold'}
                 emptyStarColor={'gold'}
                 containerStyle={styles.starsContainer}
@@ -49,7 +49,7 @@ const ResultsShowScreen = ({ navigation }) => {
 
 
             {/* CONTACT INFO */}
-            <Text style={{color:'gold', alignSelf:'center'}}>Contact Information:</Text>
+            
             
             <Text style={{color: 'white', fontSize: 20}}>
                 <AntDesign name="phone" size={20} color="white" />
@@ -64,7 +64,7 @@ const ResultsShowScreen = ({ navigation }) => {
                 onPress={ ()=>{ Linking.openURL(webURL)}}
                 >
                     <Text style={{color: 'lightsteelblue', fontSize: 20}}>
-                    <MaterialCommunityIcons name="web" size={20} color="white" style={{}}/>
+                    <MaterialCommunityIcons name="web" size={20} color="white"/>
                         {" "}{result.name} 
                         
                         </Text>
