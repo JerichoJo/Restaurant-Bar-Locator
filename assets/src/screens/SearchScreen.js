@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import useResults from '../hooks/useResults';
 import ResultsList from '../components/ResultsList';
-import { color } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
+
 
 const SearchScreen = ({  }) => {
     
@@ -48,13 +48,13 @@ const SearchScreen = ({  }) => {
 
 const styles = StyleSheet.create({
     bg: {
-        backgroundColor: 'grey',
+        backgroundColor: 'green',
         
     },
     pictures: {
         borderRadius: 15,
         borderWidth: 5,
-        borderColor: 'lightsteelblue'
+        borderColor: 'white'
     }
 
 });
