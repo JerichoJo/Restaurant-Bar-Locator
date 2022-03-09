@@ -17,10 +17,9 @@ const navigator = createStackNavigator({
             title: 'Bar & Restaraunt Locator',
             headerTitleAlign:'center',
             headerTintColor: 'white',
-            backgroundColor:'orange',
-            cardStyle: {backgroundColor: 'green'},
+            cardStyle: {backgroundColor: 'lightsteelblue'},
             headerStyle: {
-                backgroundColor: 'green',
+                backgroundColor: 'lightsteelblue',
                 
             }
         }

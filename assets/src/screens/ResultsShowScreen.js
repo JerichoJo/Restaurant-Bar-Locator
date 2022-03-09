@@ -98,6 +98,7 @@ const ResultsShowScreen = ({ navigation }) => {
 
             <FlatList
                 data={result.photos}
+                horizontal={true}
                 keyExtractor={(photo) => photo}
                 contentContainerStyle={{ paddingBottom: 20 }}
                 renderItem={({ item   }) => {
@@ -131,8 +132,10 @@ const styles = StyleSheet.create({
         borderRadius: 5
     },
     bg: {
-        backgroundColor: 'green',
+        backgroundColor: 'darkkhaki',
         flex: 1,
+        alignItems:'center',
+        alignSelf:'center'
 
         
     },

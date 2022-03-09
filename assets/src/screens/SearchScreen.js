@@ -48,7 +48,7 @@ const SearchScreen = ({  }) => {
 
 const styles = StyleSheet.create({
     bg: {
-        backgroundColor: 'green',
+        backgroundColor: 'darkkhaki',
         
     },
     pictures: {
